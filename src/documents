@@ -1,0 +1,45 @@
+Actions - Actons has two thing type and payload
+
+Action ---> dispatch -->store
+
+Reducer are pure functions it will call automaically when action dispatch
+
+coonect - React-redux provide a function called connect
+
+useSelector -  it is used to select a part from state to use in component
+
+connect(mapStateToPropsFunc,mapDispatchTOPropsFunc)
+
+mapsStateTOPropsFunc name can be anything 
+
+arguments-state(Application State)
+
+whenever state change props value will also change
+
+whenever state changes props value will also change
+if props value changes then our components get re-render
+
+we returns objects of props
+
+mapDispatchToPropsFUnc -
+
+argument -dispatch function
+
+dispatch function is used to dispatch the action
+
+action objects we get from actions creaters
+
+returns objects of props
+
+we can use useDispatch Hook to dispatch action directly within the component
+
+react-redux provides us Provider component
+
+
+
+
+Folder structure of plan React-redux 
+
+1. Action - Action.types
+2. Reducer - rootReducer
+3. Store 
